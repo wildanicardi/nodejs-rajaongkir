@@ -100,7 +100,7 @@ npm run start
 * **Success Response:**
 
   * **Code:** 200 
-  * **Content:** 
+  * **Response:** 
 ```javascript
 {
     "rajaongkir": {
@@ -126,7 +126,7 @@ npm run start
 * **Error Response:**
 
   * **Code:** 500 
-  * **Content:** `{ error : error.message }`
+  * **Response:** `{ error : error.message }`
 
 ### Get provinces
   Menampilkan data json provinces/ provinsi
@@ -142,7 +142,7 @@ npm run start
 * **Success Response:**
 
   * **Code:** 200 
-  *  **Content:** 
+  *  **Response:** 
 ```javascript
 {
     "rajaongkir": {
@@ -169,7 +169,7 @@ npm run start
 * **Error Response:**
 
   * **Code:** 500 
-  * **Content:** `{ error : error.message }`
+  * **Response:** `{ error : error.message }`
 
 ### Get provinces By param
   Menampilkan data json provinces /provinsi by param Id
@@ -192,7 +192,7 @@ npm run start
 * **Success Response:**
 
   * **Code:** 200 
-  * **Content:** 
+  * **Response:** 
 ```javascript
 {
     "rajaongkir": {
@@ -214,4 +214,4 @@ npm run start
 * **Error Response:**
 
   * **Code:** 500 
-  * **Content:** `{ error : error.message }`
+  * **Response:** `{ error : error.message }`
